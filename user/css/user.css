@@ -1,0 +1,72 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	transition: 2s;
+	box-sizing: border-box;
+}
+
+.desktop-nav ul li .mn-wrap {
+	width: 50rem;
+}
+
+.page-section,
+.small-section {
+	padding: 70px 0;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.section-text {
+	font-size: large;
+}
+
+.page-section {
+	padding: 20px 0;
+}
+
+.nav-logo-wrap {
+	display: flex;
+	float: left;
+}
+
+.sp-button {
+	padding: 10px;
+	margin: auto;
+	margin-right: 30px;
+}
+
+.linkHeader {
+	font-size: large;
+}
+
+.footerLinks li {
+	margin-top: 10px;
+}
+
+.shop-list li {
+	margin-bottom: 20px;
+}
+
+.item-list .card-body {
+	margin: auto 0;
+}
+
+.work-btn a {
+	display: block;
+	width: 200px;
+	margin: 30px 0 10px 50px;
+	margin-bottom: 10px;
+}
+
+.sidebar .fixed-widgets {
+	position: fixed;
+}
+@media screen and (max-width: 600px) {
+	.sidebar .fixed-widgets {
+		position: relative;
+	}
+}
