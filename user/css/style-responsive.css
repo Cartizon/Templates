@@ -30,7 +30,7 @@ Version:    2.9.4
         margin-left: 25px;
     }
 	
-}  
+}
 
 @media only screen and (max-width: 1200px) {
 	
@@ -54,7 +54,7 @@ Version:    2.9.4
     
     .alt-service-grid {
         margin-top: -40px;
-    } 
+    }
     .alt-service-item {
         margin-top: 40px;
         padding-left: 48px;
@@ -113,7 +113,7 @@ Version:    2.9.4
 
     .hs-line-9 {
         font-size: 71px;
-    } 
+    }
     .hs-line-10 {
         padding: 10px 14px;
         letter-spacing: 1px;
@@ -146,10 +146,10 @@ Version:    2.9.4
     .lp-item {
         width: 50%;
     }
-    .lp-item:nth-child(4n + 5){ 
-        clear: none; 
+    .lp-item:nth-child(4n + 5){
+        clear: none;
     }
-    .lp-item:nth-child(2n + 3) {        
+    .lp-item:nth-child(2n + 3) {
         clear:left;
     }
     .lp-title, .lp-author{
@@ -192,7 +192,7 @@ Version:    2.9.4
     
     .banner-text {
         text-align: center;
-    } 
+    }
     
     .banner-image {
         margin: 40px 0;
@@ -204,7 +204,7 @@ Version:    2.9.4
     
     .features-icon {
         font-size: 64px;
-    } 
+    }
     .features-title {
         font-size: 20px;
     }
@@ -236,7 +236,7 @@ Version:    2.9.4
     }
     .countdown-number > b{
         bottom: 18px;
-    }   
+    }
     
 }
   
@@ -260,7 +260,7 @@ Version:    2.9.4
     
     .page-section {
         padding: 80px 0;
-    }    
+    }
     .small-section {
         padding: 50px 0;
     }
@@ -288,7 +288,7 @@ Version:    2.9.4
     
     .count-descr{
         margin-bottom: 30px;
-    }    
+    }
     
     .alt-service-grid{
     margin-top: -30px;
@@ -353,7 +353,7 @@ Version:    2.9.4
     }
     .hs-line-2{
         font-size: 36px;
-    }    
+    }
     .hs-line-3 {
         font-size: 13px;
     }
@@ -363,7 +363,7 @@ Version:    2.9.4
     
     .hs-wrap-1{
         max-width: 240px;
-    }    
+    }
     .hs-line-5{
         font-size: 44px;
         letter-spacing: 0.28em;
@@ -377,7 +377,7 @@ Version:    2.9.4
     
     .hs-line-9{
         font-size: 48px;
-    } 
+    }
     .hs-line-10 {
         padding: 5px 8px;
         font-size: 11px;
@@ -414,7 +414,7 @@ Version:    2.9.4
     
     .alt-features-grid {
         margin-top: -30px;
-    } 
+    }
     .alt-features-item {
         margin-top: 30px;
     }
@@ -439,7 +439,7 @@ Version:    2.9.4
         margin: 4px;
         width: 46%;
         font-size: 11px;
-    }    
+    }
     
     .blog-item-date{
         width: auto;
@@ -455,7 +455,7 @@ Version:    2.9.4
     }
     .sidebar {
         margin-top: 50px;
-    } 
+    }
     
     blockquote p {
         font-size: 20px;
@@ -464,11 +464,11 @@ Version:    2.9.4
     blockquote footer {
         margin-top: 0;
         font-size: 12px;
-    }   
+    }
 
     .banner-content {
         text-align: center;
-    } 
+    }
     .banner-image {
         text-align: center;
     }
@@ -540,7 +540,7 @@ Version:    2.9.4
         margin: 0 auto;
     }
     .sp-logo-wrap .logo{
-        padding: 20px 0 0 0;
+        padding: 20px 0 0;
     }
     .sp-menu-links a{
         padding-top: 10px;
@@ -565,7 +565,7 @@ Version:    2.9.4
         bottom: -20px;
         font-size: 9px;
         color: rgba(255,255,255, .85);
-    } 
+    }
     .text-mobile {
         font-size: 110%;
         line-height: 1.2;
@@ -610,14 +610,14 @@ Version:    2.9.4
     }
     .hs-line-8 {
         font-size: 12px;
-    } 
+    }
     .hs-line-9 {
         font-size: 42px;
-    } 
+    }
     .hs-line-11 {
         font-size: 20px;
         letter-spacing: 0.2em;
-    } 
+    }
     .hs-line-12 {
         font-size: 32px;
     }
@@ -638,7 +638,7 @@ Version:    2.9.4
     .scroll-down-icon {
         width: 22px;
         margin-left: -11px;
-    }    
+    }
     .scroll-down span{
         display: none;
     }
@@ -658,7 +658,7 @@ Version:    2.9.4
     
     .owl-pagination {
         bottom: 10px;
-    }    
+    }
     
     .owl-prev, .owl-next {
         display: none;
@@ -677,11 +677,11 @@ Version:    2.9.4
     .wide-heading {
         font-size: 24px;
         letter-spacing: 2px;
-    }    
+    }
     .section-heading,
     .sub-heading{
         font-size: 15px;
-    } 
+    }
     .section-text {
         font-size: 15px;
         line-height: 1.7;
@@ -711,7 +711,7 @@ Version:    2.9.4
         margin-bottom: 30px;
     }
     
-    .section-text, 
+    .section-text,
     .text{
         line-height: 1.7;
     }
@@ -728,7 +728,7 @@ Version:    2.9.4
         width: 100%;
         margin-left: 0;
         margin-right: 0;
-    }    
+    }
     
     .work-item,
     .work-grid-2 .work-item,
@@ -736,7 +736,7 @@ Version:    2.9.4
     .container .work-grid-3 .work-item,
     .work-grid-5 .work-item {
         width: 100%;
-    }    
+    }
     
     .work-full-text{
         margin-top: 30px;

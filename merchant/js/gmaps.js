@@ -18,7 +18,7 @@ if(window.google && window.google.maps){
         ele = $("#"+id.replace('#', ''), context)[0]
       }else{
         ele = doc.getElementById(id.replace('#', ''));
-      };
+      }
       return ele;
     };
 
@@ -33,7 +33,7 @@ if(window.google && window.google.maps){
         this.el = getElementById(options.el || options.div, options.context);
       } else {
         this.el = options.el || options.div;
-      };
+      }
       this.el.style.width = options.width || this.el.scrollWidth || this.el.offsetWidth;
       this.el.style.height = options.height || this.el.scrollHeight || this.el.offsetHeight;
 

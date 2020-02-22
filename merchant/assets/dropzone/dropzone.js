@@ -1,4 +1,4 @@
-;(function(){
+(function(){
 
 
 /**
@@ -221,7 +221,7 @@ module.exports = Emitter;
 
 function Emitter(obj) {
   if (obj) return mixin(obj);
-};
+}
 
 /**
  * Mixin the emitter properties.

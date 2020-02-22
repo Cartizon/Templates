@@ -60,7 +60,7 @@
 /* Fix for IE 7: */
 * + html .fileinput-button {
   padding: 2px 15px;
-  margin: 1px 0 0 0;
+  margin: 1px 0 0;
 }
 
 @media (max-width: 767px) {

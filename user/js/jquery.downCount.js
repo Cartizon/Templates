@@ -113,7 +113,7 @@ $(document).ready(function(){
             container.find('.hours_ref').text(ref_hours);
             container.find('.minutes_ref').text(ref_minutes);
             container.find('.seconds_ref').text(ref_seconds);
-        };
+        }
         
         // start
         var interval = setInterval(countdown, 300);

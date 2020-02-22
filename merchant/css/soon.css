@@ -26,11 +26,11 @@ HEADER
 .timer_box h1{
     font-size: 48px;
     margin-top: 5px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: white;
 }
-.timer_box p{ margin-top: 0px;}
+.timer_box p{ margin-top: 0;}
 #layer{
     background-color: rgba(0, 0, 0, .2);
     left: 0; top: 0;
@@ -42,7 +42,7 @@ HEADER
 #slider{
     width: 100%;
     position: fixed;
-    background-color: #2c3e50; 
+    background-color: #2c3e50;
     top: 0;
     left: 0;
     z-index: 0;
@@ -68,7 +68,7 @@ RESPONSIVE
 @media only screen and (max-width: 520px) {
     .timer_box{ margin: 0 12px 12px 0;}
     .tp-bullets{display: none;}
-    #header .container{padding: 20px 0px 20px 0}
+    #header .container{padding: 20px 0}
     #header-button{ display: none;}
     #appendedInputButtons{
         border-radius: 20px;
@@ -84,7 +84,7 @@ RESPONSIVE
 @media only screen and (max-width: 740px) {
     .timer_box{
         width: 100px;
-        padding: 16px 0 0 0;
+        padding: 16px 0 0;
         margin: 35px 12px;
     }
     #layer{display: none;}
@@ -138,7 +138,7 @@ ANIMATIONS
 @-moz-keyframes GoIn {
     0%   {opacity: 0; -moz-transform: translateY(-2000px);}
     60%  {opacity: 1; -moz-transform: translateY(30px);}
-    80%  {-moz-transform: translateY(-10px);}               
+    80%  {-moz-transform: translateY(-10px);}
     100% {-moz-transform: translateY(0);}
 }
 @-o-keyframes GoIn {
@@ -149,7 +149,7 @@ ANIMATIONS
 }
 @keyframes GoIn {
     0%   {opacity: 0; transform: translateY(-2000px);}
-    60%  {opacity: 1; transform: translateY(30px);}   
+    60%  {opacity: 1; transform: translateY(30px);}
     80%  {transform: translateY(-10px);}
     100% {transform: translateY(0);}
 }
@@ -179,19 +179,19 @@ ANIMATIONS
 }
 @-webkit-keyframes InfiniteTurn {
     0% { -webkit-transform: rotate(0deg);}
-    100% { -webkit-transform: rotate(360deg);};
+    100% { -webkit-transform: rotate(360deg);}
 }
 @-moz-keyframes InfiniteTurn {
     0% { -moz-transform: rotate(0deg);}
-    100% { -moz-transform: rotate(360deg);};
+    100% { -moz-transform: rotate(360deg);}
 }
 @-o-keyframes InfiniteTurn {
     0% { -o-transform: rotate(0deg);}
-    100% { -o-transform: rotate(360deg);};
+    100% { -o-transform: rotate(360deg);}
 }
 @-keyframes InfiniteTurn {
     0% { transform: rotate(0deg);}
-    100% { transform: rotate(360deg);};
+    100% { transform: rotate(360deg);}
 }
 
 @-webkit-keyframes bounceInLeft {
@@ -526,9 +526,9 @@ PLUGINS
     -webkit-transition: none 0 !important;
     -o-transition: none 0 !important;
     transition: none 0 !important;
-    margin:0px !important;
-    padding:0px !important;
-    border-width:0px !important;
+    margin:0 !important;
+    padding:0 !important;
+    border-width:0 !important;
     border:none;
     visibility:visible !important;
 }
@@ -538,24 +538,24 @@ PLUGINS
     padding-top:80px;
 }
 .rev_slider ul{
-    margin:0px !important;
-    padding:0px !important;
+    margin:0 !important;
+    padding:0 !important;
     list-style: none !important;
     list-style-type: none !important;
-    background-position:0px 0px !important;
+    background-position:0 0 !important;
 }
 .rev_slider ul li,.rev_slider >ul >li,.rev_slider >ul >li:before{
     list-style:none !important;
     position:absolute;
     visibility:hidden;
-    margin:0px !important;
-    padding:0px !important;
+    margin:0 !important;
+    padding:0 !important;
     overflow-x: visible;
     overflow-y: visible;
     list-style-type: none !important;
     background-image:none !important;
-    background-position:0px 0px !important;
-    text-indent: 0em !important;
+    background-position:0 0 !important;
+    text-indent: 0 !important;
 }
 .tp-bannertimer{
     width: 100%;
@@ -567,7 +567,7 @@ PLUGINS
     bottom: 0;
     background-color: rgba(255, 255, 255, .6);
 }
-.tp-bullets {   
+.tp-bullets {
     z-index:1000; position:absolute;
     left: 90% !important;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -576,16 +576,16 @@ PLUGINS
     opacity: 1;
     -webkit-transition: opacity 0.2s ease-out; -moz-transition: opacity 0.2s ease-out; -o-transition: opacity 0.2s ease-out; -ms-transition: opacity 0.2s ease-out;
 }
-.tp-bullets.simplebullets.round .bullet {   
+.tp-bullets.simplebullets.round .bullet {
     cursor:pointer;
-    position:relative;  
+    position:relative;
     border: 3px solid rgba(255, 255, 255, .6);
-    width:20px; 
-    height:20px;  
-    margin-right:0px; 
-    float:left; 
+    width:20px;
+    height:20px;
+    margin-right:0;
+    float:left;
     border-radius: 50%;
-    margin-top:-10px; 
+    margin-top:-10px;
     margin-left:3px;
 }
 .tp-bullets.simplebullets.round .bullet.selected{

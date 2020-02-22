@@ -32,7 +32,7 @@
  *
  */
 
-;(function($) {
+(function($) {
 
 	var methods = {
 		init: function(options) {

@@ -158,7 +158,7 @@
 .tree .tree-item,
 .tree .tree-folder .tree-folder-header{
     margin:0;
-    padding:4px 5px 6px 5px;
+    padding:4px 5px 6px;
     color:#333;
     -webkit-box-sizing:content-box;
     -moz-box-sizing:content-box;
@@ -200,7 +200,7 @@
     vertical-align: middle;
     display: inline-block;
     background: url("../img/tree-icons.png") no-repeat;
-    background-position: 0 0px;
+    background-position: 0 0;
     content: "";
 }
 
@@ -210,7 +210,7 @@
 }
 
 .tree.tree-plus-minus .tree-folder-name {
-    margin-left: 0px !important;
+    margin-left: 0 !important;
 }
 
 .tree .tree-actions {
@@ -232,7 +232,7 @@
     font-size: 14px;
     color: #999;
     margin-right: 6px;
-    margin-top: 0px;
+    margin-top: 0;
     display: inline-block;
 }
 

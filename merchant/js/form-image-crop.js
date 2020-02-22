@@ -33,12 +33,12 @@ var FormImageCrop = function () {
             $('#y2').val(c.y2);
             $('#w').val(c.w);
             $('#h').val(c.h);
-        };
+        }
 
         function clearCoords()
         {
             $('#coords input').val('');
-        };
+        }
     }
 
     var demo3 = function() {
@@ -85,7 +85,7 @@ var FormImageCrop = function () {
               marginTop: '-' + Math.round(ry * c.y) + 'px'
             });
           }
-        };
+        }
     }
 
 
@@ -93,7 +93,7 @@ var FormImageCrop = function () {
         //main function to initiate the module
         init: function () {
             
-            if (!jQuery().Jcrop) {;
+            if (!jQuery().Jcrop) {
                 return;
             }
 

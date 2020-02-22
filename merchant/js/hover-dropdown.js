@@ -11,7 +11,7 @@
  *
  * http://cameronspear.com/blog/twitter-bootstrap-dropdown-on-hover-plugin/
  */
-;(function($, window, undefined) {
+(function($, window, undefined) {
     // outside the scope of the jQuery plugin to
     // keep track of all dropdowns
     var $allDropdowns = $();

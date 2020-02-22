@@ -127,7 +127,7 @@
     }
 
     #sidebar > ul > li {
-        margin: 0 10px 5px 10px;
+        margin: 0 10px 5px;
     }
     #sidebar > ul > li > a {
         height:35px;
@@ -197,7 +197,7 @@
     /*---------*/
 
     .modal-footer .btn {
-        margin-bottom: 0px !important;
+        margin-bottom: 0 !important;
     }
 
     .btn {
@@ -222,12 +222,12 @@
     }
 
     .fc-header-left .fc-button {
-        margin: 0px !important;
+        margin: 0 !important;
         top: -10px !important;
     }
 
     .fc-header-right .fc-button {
-        margin: 0px !important;
+        margin: 0 !important;
         top: -50px !important;
     }
 
@@ -246,11 +246,11 @@
     }
 
     .fc-view {
-        top: 0px !important;
+        top: 0 !important;
     }
 
     .fc-button .fc-button-inner {
-        margin: 0px !important;
+        margin: 0 !important;
         padding: 2px !important;
         border: none !important;
         margin-right: 2px !important;
@@ -261,15 +261,15 @@
         background-image: -o-linear-gradient(top, #fafafa, #efefef) !important;
         background-image: linear-gradient(to bottom, #fafafa, #efefef) !important;
         filter: progid:dximagetransform.microsoft.gradient(startColorstr='#fafafa', endColorstr='#efefef', GradientType=0) !important;
-        -webkit-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
-        -moz-box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
-        box-shadow: 0 1px 0px rgba(255, 255, 255, .8) !important;
+        -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) !important;
+        -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .8) !important;
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .8) !important;
         -webkit-border-radius: 3px !important;
         -moz-border-radius: 3px !important;
         border-radius: 3px !important;
         color: #646464 !important;
         border: 1px solid #ddd !important;
-        text-shadow: 0 1px 0px rgba(255, 255, 255, .6) !important;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, .6) !important;
         text-align: center;
     }
 
@@ -297,7 +297,7 @@
     }
 
     .fc-header {
-        margin-bottom:0px !important;
+        margin-bottom:0 !important;
     }
 
     /*--*/
@@ -346,7 +346,7 @@
     .top-nav {
         position: absolute;
         right: 10px;
-        top: 0px;
+        top: 0;
     }
 
     .horizontal-menu .navbar-nav > li > a {
@@ -452,7 +452,7 @@
     }
 
     .chart-position {
-       margin-top: 0px;
+       margin-top: 0;
      }
     /*--horizontal menu--*/
     .full-width .navbar-toggle {
@@ -476,7 +476,7 @@
     .top-nav {
         position: absolute;
         right: 10px;
-        top: 0px;
+        top: 0;
     }
 
     .horizontal-menu .navbar-nav > li > a {
@@ -599,7 +599,7 @@
     }
 
     .chart-position {
-        margin-top: 0px;
+        margin-top: 0;
     }
 
     .lock-wrapper {

@@ -871,7 +871,7 @@ if (!Array.prototype.indexOf) {
       if (check_binded) {
         process();
         return true;
-      };
+      }
       return false;
     }
   });

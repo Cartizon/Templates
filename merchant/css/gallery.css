@@ -156,10 +156,10 @@
 .no-touch .cs-style-3 figure:hover figcaption,
 .cs-style-3 figure.cs-hover figcaption {
 	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
 	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
 	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
 	transition: transform 0.4s, opacity 0.1s;
@@ -340,7 +340,7 @@
 	-webkit-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
 	-moz-transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
 	transition: opacity 0.3s, height 0.3s, box-shadow 0.3s;
-	box-shadow: 0 0 0 0px #2c3f52;
+	box-shadow: 0 0 0 0 #2c3f52;
 }
 
 .no-touch .cs-style-7 figure:hover figcaption,
@@ -383,7 +383,7 @@
 
 @media screen and (max-width: 31.5em) {
 	.grid {
-		padding: 10px 10px 100px 10px;
+		padding: 10px 10px 100px;
 	}
 	.grid li {
 		width: 100%;
